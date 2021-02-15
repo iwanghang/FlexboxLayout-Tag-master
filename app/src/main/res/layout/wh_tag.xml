@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:id="@+id/wh_tag">
+
+    <ImageView
+        android:id="@+id/wh_tag_img"
+        android:layout_gravity="center_vertical"
+        android:src="@mipmap/tag_horn_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/wh_tag_tv"
+        android:textColor="#64646A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Helloworld" />
+
+</LinearLayout>
